@@ -10,7 +10,7 @@ public class ChristmasSongShould {
     public void ReturnFirstVerseOfTheSongWhenCalledWithOne() {
         assertEquals(ChristmasSong.getVerse(1), "On the First day of Christmas" + System.lineSeparator() +
                 "My true love gave to me:" + System.lineSeparator() +
-                "A partridge in a pear tree");
+                "A partridge in a pear tree...");
     }
 
     @Test
